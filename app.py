@@ -178,6 +178,11 @@ with gr.Blocks(title="Drug Autoimmunity Risk Predictor", theme=gr.themes.Soft())
     
     # Add footer information
     gr.Markdown("---")
+    gr.Markdown(
+        "📊 **Data Source Acknowledgement:** This model was trained using the "
+        "[Drug-Induced Autoimmunity Prediction dataset](https://archive.ics.uci.edu/dataset/1104/drug_induced_autoimmunity_prediction) "
+        "provided by the UCI Machine Learning Repository."
+    )
     gr.Markdown("**Model Information:** Random Forest Classifier trained on RDKit molecular descriptors for autoimmunity risk prediction.")
 
 # Launch the interface
