@@ -183,7 +183,10 @@ with gr.Blocks(title="Drug Autoimmunity Risk Predictor", theme=gr.themes.Soft())
         "[Drug-Induced Autoimmunity Prediction dataset](https://archive.ics.uci.edu/dataset/1104/drug_induced_autoimmunity_prediction) "
         "provided by the UCI Machine Learning Repository."
     )
-    gr.Markdown("**Model Information:** Random Forest Classifier trained on RDKit molecular descriptors for autoimmunity risk prediction.")
+
+    gr.Markdown(
+        "👤 **Developed by:** Idowu Ibitayo Bright"
+    )
 
 # Launch the interface
 if __name__ == "__main__":
